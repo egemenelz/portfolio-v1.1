@@ -1,20 +1,24 @@
 import './App.css';
 import React from 'react';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
+import Layout from './components/Layout';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Project from './components/Project';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <section>
-      <Navigation />
-      <main>
-        <Header />
-        <Project />
-      </main>
-      <Footer />
-    </section>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Header />} />
+          <Route path='/portfolio' element={<Project />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/contact' element={<Contact />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
