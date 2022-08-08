@@ -1,0 +1,15 @@
+.res-grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-left: 160px;
+}
+
+.res-grid-item2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.grid-container{
+    color: #1b4d89;
+    font-family: sans-serif;
+}

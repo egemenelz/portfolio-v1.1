@@ -1,0 +1,39 @@
+.text-zone {
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+}
+
+
+p{
+    color: #1b4d89;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.flat-button {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: right;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+  }
+
+.flat-button:hover{
+    background: #ffd700;
+    color: #1b4d89;
+}
+
