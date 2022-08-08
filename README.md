@@ -1,6 +1,7 @@
 # Portfolio
 
-<img src="./images/social-network.gif" alt="Project Image" width="900px"/>
+<img width="1552" alt="portfolio-ss" src="https://user-images.githubusercontent.com/74003028/183525185-b72d959d-1f83-4320-affa-5f4fabbb7e6b.png">
+
 
 ## License and Badges
 
