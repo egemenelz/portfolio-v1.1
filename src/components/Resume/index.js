@@ -1,11 +1,12 @@
 import React from "react";
-import './style.css'
+import './style.css';
+import resume from '../../assets/EgemenElizResume.pdf'
 const Resume = () => {
     return (
         <section>
             <h1>Resume</h1>
 
-            <h4>Download my <a>resume</a></h4>
+            <h4>Download my <a href={resume} download>resume</a></h4>
             <div className="grid-container">
                 <div className="res-grid-item1">
                     <h3>Front-end Proficiencies</h3>
