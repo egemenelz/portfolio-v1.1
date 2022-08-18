@@ -9,6 +9,7 @@ import runBuddy from "../../assets/images/run-buddy.png"
 import techBlog from "../../assets/images/tech-blog.png"
 import weatherDash from "../../assets/images/weather-dashboard.png"
 import workday from "../../assets/images/workday-scheduler.png"
+import openSignal from "../../assets/images/openSignal.png"
 import './style.css'
 
 
@@ -100,6 +101,21 @@ const Project = () => {
                             </div>
                             <div className="image_title">
                                 <a href="https://egemenelz.github.io/Work-Day-Scheduler/" target="_blank" rel="noopener noreferrer">Workday Scheduler</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="grid-item1">
+                    <div className="image-container">
+                        <img src={openSignal} className="image-effect project-image" alt="Open Signal" />
+                        <div className="image_overlay">
+                            <div className="image_icon">
+                                <a href="https://github.com/alandidiego/finalproject" target="blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                                </a>
+                            </div>
+                            <div className="image_title">
+                                <a href="https://git.heroku.com/opensignal.git" target="_blank" rel="noopener noreferrer">Open Signal</a>
                             </div>
                         </div>
                     </div>
